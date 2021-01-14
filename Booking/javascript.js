@@ -609,6 +609,7 @@ window.onload = function() {
       StateSel.options[StateSel.options.length] = new Option(y, y);
     }
   }
+
   StateSel.onchange = function() {
     //empty Chapters dropdown
     CitySel.length = 1;
@@ -618,4 +619,6 @@ window.onload = function() {
       CitySel.options[CitySel.options.length] = new Option(z[i], z[i]);
     }
   }
+
+  
 }
